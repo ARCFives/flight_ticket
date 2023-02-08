@@ -1,0 +1,188 @@
+:root {
+  --text_color: rgba(0, 0, 0, 0.639);
+  --medium-color: rgba(0, 0, 0, 0.88);
+  --hour-color: rgba(0, 0, 0, 0.8);
+  --violet: #633BBC;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background: var(--violet)
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  padding-top: .5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+span {
+  display: block;
+}
+
+.card {
+  position: relative;
+  width: 36rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box {
+  width: 32.7rem;
+  background-color: #fff;
+  padding: 2.4rem 3.2rem;
+}
+
+.fly-info {
+  height: 19.1rem;
+  border-radius: 2.4rem 2.4rem 0 0;
+}
+
+.fly-date {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2.4rem;
+}
+
+.text {
+  color: var(--text_color);
+  font-size: 1.4rem;
+}
+
+.text-medium {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: var(--medium-color);
+}
+
+.right {
+  text-align: right;
+}
+
+.text-hour {
+  font-size: 1.6rem;
+  color: var(--hour-color);
+}
+
+i {
+  font-size: 2.4rem;
+  color: var(--medium-color);
+}
+
+.airport {
+  font-size:  4rem;
+  font-weight: 500;
+  color: var(--medium-color);
+}
+
+.fly-destiny {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pax-info {
+  display: flex;
+  justify-content: space-between;
+  height: 8.4rem;
+  align-items: center;
+  border-top: 1px dashed var(--text_color);
+  border-bottom: 1px dashed var(--text_color);
+}
+
+.ball {
+  height: 2.4rem;
+  width: 2.4rem;
+  border-radius: 2.4rem;
+  background-color: var(--violet);
+  position: absolute;
+}
+
+.ball-1 {
+  left: .5rem;
+  top: 18rem;
+}
+
+.ball-2 {
+  left: .5rem;
+  top: calc(18rem + 8.4rem);
+}
+
+.ball-3 {
+  left: calc(.5rem + 32.5rem);
+  top: 18rem;
+}
+
+.ball-4 {
+  left: calc(.5rem + 32.5rem);
+  top: calc(18rem + 8.4rem);
+}
+
+.bording-info {
+  height: 26.9rem;
+  border-radius: 0 0 2.4rem 2.4rem;
+}
+
+.bording {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.bording-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text.small {
+  font-size: 1.2rem;
+}
+
+.destaque {
+  padding: .8rem .4rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #fff;
+  background-color: var(--violet);
+  display: inline-block;
+  border-radius: .8rem;
+}
+
+.qr-code {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.alert {
+  margin-top: 2.4rem;
+  font-size: 1.6rem;
+  text-align: center;
+  color: var(--medium-color);
+}
+
+.aviso {
+  font-size: 1.4rem;
+  color: #fff;
+  width: 26.9rem;
+  margin-top: 2rem;
+}
